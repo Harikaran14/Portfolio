@@ -73,7 +73,7 @@ export default function Hero() {
       </div>
 
       <div className="hero__scroll-hint" aria-hidden>
-        <span>▼ ENTER CITY</span>
+        <span>▼ Know about the player </span>
       </div>
     </section>
   )
