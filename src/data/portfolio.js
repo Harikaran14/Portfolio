@@ -16,7 +16,7 @@ export const profile = {
     { label: 'CODEFORCES', value: '1381', suffix: 'Pupil', color: 'red' },
     { label: 'JEE MAINS', value: '96', suffix: 'Percentile', color: 'white' },
   ],
-  bio: `Third-year B.Tech Information Technology student at SSN College of Engineering (CGPA 8.50/10). I specialize in full-stack development with Flask and MERN, competitive programming on Codeforces (max rating 1323, Pupil), and applied ML — from CNN–LSTM sleep classification to real-time ambulance routing systems.`,
+  bio: `Fourth-year B.Tech Information Technology student at SSN College of Engineering (CGPA 8.50/10). I specialize in full-stack development with Flask and MERN, competitive programming on Codeforces (max rating 1381, Pupil), and applied ML. Ive worked on projects from CNN–LSTM sleep stage classification to real-time ambulance routing systems.`,
   social: {
     github: 'https://github.com/Harikaran14',
     linkedin: 'https://www.linkedin.com/in/harikaran-c-42205b306',
