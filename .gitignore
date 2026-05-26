@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+
+# Resume copy at project root (served from public/)
+/Harikaran_C_Resume.pdf
