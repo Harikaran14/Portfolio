@@ -1164,7 +1164,8 @@ button {
   font-size: 0.65rem;
   background: var(--red-dim);
   border: 1px solid var(--red);
-  color: var(--red);
+  --cyan: #00FFFF;
+  color: var(--cyan);
   margin-bottom: 0.5rem;
 }
 
