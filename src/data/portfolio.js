@@ -13,10 +13,10 @@ export const profile = {
   currentlyLearning: 'System Design',
   stats: [
     { label: 'CGPA', value: '8.50', max: '10', color: 'green' },
-    { label: 'CODEFORCES', value: '1381', suffix: 'Pupil', color: 'red' },
+    { label: 'CODEFORCES', value: '1450', suffix: 'Specialist', color: 'red' },
     { label: 'JEE MAINS', value: '96', suffix: 'Percentile', color: 'white' },
   ],
-  bio: `Fourth-year B.Tech Information Technology student at SSN College of Engineering (CGPA 8.50/10). I specialize in full-stack development with Flask and MERN, competitive programming on Codeforces (max rating 1381, Pupil), and applied ML. Ive worked on projects from CNN–LSTM sleep stage classification to real-time ambulance routing systems.`,
+  bio: `Fourth-year B.Tech Information Technology student at SSN College of Engineering (CGPA 8.50/10). I specialize in full-stack development with Flask and MERN, competitive programming on Codeforces (max rating 1450, Specialist), and applied ML. Ive worked on projects from CNN–LSTM sleep stage classification to real-time ambulance routing systems.`,
   social: {
     github: 'https://github.com/Harikaran14',
     linkedin: 'https://www.linkedin.com/in/harikaran-c-42205b306',
@@ -76,7 +76,7 @@ export const projects = [
     subtitle: 'AI Email Intelligence',
     period: '2026 — Present',
     description:
-      'MERN + Gmail API platform with LLM summarization, semantic vector search, priority classification, task extraction, and analytics dashboard.',
+      'MERN + Gmail API platform with LLM Copilot, LLM summarization, semantic vector search, priority classification, task extraction, and analytics dashboard.',
     tech: ['React', 'Node.js', 'MongoDB', 'LLM', 'OAuth'],
     github: 'https://github.com/Harikaran14/OctoMail',
     featured: true,
@@ -147,7 +147,7 @@ export const projects = [
     id: 'digital-twin',
     title: 'Digital Twin for Capacity Planning',
     subtitle: 'Simulation',
-    period: '2026',
+    period: '2025',
     description: 'Python-based digital twin for infrastructure capacity planning and resource optimization.',
     tech: ['Python'],
     github: 'https://github.com/Harikaran14/Digital-Twin-for-Capacity-Planning',
@@ -179,8 +179,8 @@ export const leadership = [
 export const achievements = [
   {
     title: 'Codeforces',
-    value: 'Max Rating 1381',
-    badge: 'Pupil',
+    value: 'Max Rating 1450',
+    badge: 'Specialist',
     link: 'https://codeforces.com/profile/Harikaran14',
     languages: 'Python, C++',
   },
