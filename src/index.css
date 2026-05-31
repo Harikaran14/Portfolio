@@ -1162,9 +1162,9 @@ button {
   padding: 0.2rem 0.6rem;
   font-family: var(--font-mono);
   font-size: 0.65rem;
-  background: var(--red-dim);
-  border: 1px solid var(--red);
   --cyan: #00FFFF;
+  background: var(--red-dim);
+  border: 1px solid var(--cyan);
   color: var(--cyan);
   margin-bottom: 0.5rem;
 }
