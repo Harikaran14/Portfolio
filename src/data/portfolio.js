@@ -2,7 +2,7 @@ export const profile = {
   name: 'Harikaran C',
   title: 'B.Tech Information Technology · Full-Stack & ML Engineer',
   tagline:
-    'Building real-time systems, deep learning pipelines, and production-grade web apps — from ambulance routing to multimodal biosignal models.',
+    'Building real-time systems, deep learning pipelines, and production-grade web apps — from ambulance dispatch system to multimodal biosignal models.',
   location: 'Chennai, India',
   education: 'SSN College of Engineering · B.Tech IT ',
   email: 'harikaran2310104@ssn.edu.in',
@@ -16,7 +16,7 @@ export const profile = {
     { label: 'CODEFORCES', value: '1450', suffix: 'Specialist', color: 'red' },
     { label: 'JEE MAINS', value: '96', suffix: 'Percentile', color: 'white' },
   ],
-  bio: `Fourth-year B.Tech Information Technology student at SSN College of Engineering (CGPA 8.50/10). I specialize in full-stack development with Flask and MERN, competitive programming on Codeforces (max rating 1450, Specialist), and applied ML. Ive worked on projects from CNN–LSTM sleep stage classification to real-time ambulance routing systems.`,
+  bio: `Fourth-year B.Tech Information Technology student at SSN College of Engineering (CGPA 8.50/10). I specialize in full-stack development with Flask and MERN, competitive programming on Codeforces (max rating 1450, Specialist), and applied ML. Ive worked on projects from CNN–LSTM sleep stage classification to real-time ambulance dispatch systems.`,
   social: {
     github: 'https://github.com/Harikaran14',
     linkedin: 'https://www.linkedin.com/in/harikaran-c-42205b306',
@@ -70,52 +70,80 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: 'octomail',
-    title: 'OctoMail',
-    subtitle: 'AI Email Intelligence',
-    period: '2026 — Present',
-    description:
-      'MERN + Gmail API platform with LLM Copilot, LLM summarization, semantic vector search, priority classification, task extraction, and analytics dashboard.',
-    tech: ['React', 'Node.js', 'MongoDB', 'LLM', 'OAuth'],
-    github: 'https://github.com/Harikaran14/OctoMail',
-    featured: true,
-    status: 'ACTIVE',
-  },
-  {
-    id: 'ambulance',
-    title: 'Ambulance Route Optimization',
-    subtitle: 'Real-Time Emergency Navigation',
-    period: 'Jan 2025 — Apr 2025',
-    description:
-      'Full-stack Flask–React app for real-time ambulance routing with dynamic re-routing via TomTom Traffic APIs, optimal hospital finder by live ETA, and MongoDB route tracking.',
-    highlights: [
-      'Deployed full-stack app with TomTom Traffic & Routing APIs',
-      'Optimal Hospital Finder — nearest hospital by minimum ETA',
-      'MongoDB for driver routes and history analytics',
-      'Interactive React UI for live navigation updates',
-    ],
-    tech: ['Flask', 'React', 'MongoDB', 'TomTom API'],
-    github: 'https://github.com/Harikaran14/Ambulance-Route-Optimization-Problem',
-    live: 'https://ambulancerouting.netlify.app/',
-    featured: true,
-  },
-  {
-    id: 'sleep',
-    title: 'Multimodal Sleep Stage Classification',
-    subtitle: 'Deep Learning Pipeline',
-    period: 'Sep 2025 — Dec 2025',
-    description:
-      'End-to-end DL pipeline for automated sleep stage classification from EEG, EOG, and EMG biosignals on PhysioNet Sleep-EDF.',
-    highlights: [
-      'Hybrid CNN–LSTM for spatial–temporal features',
-      'MNE preprocessing: filtering, epoching, normalization',
-      'Robust generalization across subjects',
-    ],
-    tech: ['Python', 'TensorFlow/Keras', 'MNE', 'Scikit-learn'],
-    github: 'https://github.com/Harikaran14/MultiModal-Sleep-Stage-Classification',
-    featured: true,
-  },
+{
+  id: 'octomail',
+  title: 'OctoMail',
+  subtitle: 'AI-Powered Email Productivity Assistant',
+  period: 'May 2026 — Present',
+  description:
+    'Full-stack AI email productivity platform integrating Gmail API, Google OAuth, LLM-powered email intelligence, semantic search, automated task extraction,asynchronous processing using BullMQ and productivity analytics.',
+  highlights: [
+    'Integrated Gmail API and Google OAuth 2.0 for secure inbox access and email synchronization',
+    'Implemented LLM-powered email summarization, priority classification, task extraction, deadline detection, and smart reply generation',
+    'Built semantic inbox search using embeddings and MongoDB Atlas Vector Search for meaning-based retrieval',
+    'Developed analytics dashboards, email clustering, and automated daily digest generation using scheduled background jobs',
+  ],
+  tech: [
+    'React',
+    'Node.js',
+    'Express.js',
+    'MongoDB Atlas',
+    'Gemini API',
+    'Google OAuth',
+    'Gmail API',
+  ],
+  github: 'https://github.com/Harikaran14/OctoMail',
+  featured: true,
+  status: 'ACTIVE',
+},
+ {
+  id: 'ambulance',
+  title: 'Real-Time Ambulance Dispatch System',
+  subtitle: 'Emergency Response Automation',
+  period: 'Jan 2025 — Apr 2025',
+  description:
+    'Full-stack emergency response platform enabling real-time ambulance dispatch, live tracking, dynamic route selection, and hospital recommendation using WebSockets and TomTom APIs.',
+  highlights: [
+    'Implemented WebSocket-based communication for live ambulance tracking, driver standby management, emergency task assignment, and patient updates',
+    'Built a dynamic route-selection engine that continuously evaluated TomTom route alternatives using traffic, distance, and ETA metrics',
+    'Developed a hospital matching system based on specialty requirements, bed availability, ambulance location, and estimated arrival time',
+    'Created an operations dashboard for monitoring fleet availability, dispatch history, hospital capacity, and response-time analytics',
+  ],
+  tech: [
+    'Flask',
+    'React',
+    'MongoDB',
+    'Socket.IO',
+    'Leaflet',
+    'TomTom API',
+  ],
+  github: 'https://github.com/Harikaran14/Ambulance-Route-Optimization-Problem',
+  live: 'https://ambulancerouting.netlify.app/',
+  featured: true,
+},{
+  id: 'sleep',
+  title: 'Multimodal Sleep Stage Classification',
+  subtitle: 'Attention-Based Deep Learning',
+  period: 'Sep 2025 — Dec 2025',
+  description:
+    'End-to-end deep learning pipeline for automated sleep stage classification using EEG, EOG, and EMG signals from the PhysioNet Sleep-EDF dataset.',
+  highlights: [
+    'Designed a multi-branch CNN-LSTM architecture for learning spatial and temporal sleep patterns from multimodal biosignals',
+    'Implemented channel attention and cross-modal attention mechanisms to improve feature fusion across EEG, EOG, and EMG streams',
+    'Built a complete preprocessing pipeline using MNE including filtering, resampling, epoch generation, and subject-wise normalization',
+    'Evaluated performance using subject-wise train-test splits, class balancing, Cohen’s Kappa, confusion matrices, and classification reports',
+  ],
+  tech: [
+    'Python',
+    'TensorFlow',
+    'Keras',
+    'MNE',
+    'Scikit-Learn',
+    'NumPy',
+  ],
+  github: 'https://github.com/Harikaran14/MultiModal-Sleep-Stage-Classification',
+  featured: true,
+},
   {
     id: 'algomart',
     title: 'AlgoMart',
