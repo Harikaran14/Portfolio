@@ -124,7 +124,7 @@ export const projects = [
   id: 'sleep',
   title: 'Multimodal Sleep Stage Classification',
   subtitle: 'Attention-Based Deep Learning',
-  period: 'Sep 2025 — Dec 2025',
+  period: 'Sep 2025 — April 2026',
   description:
     'End-to-end deep learning pipeline for automated sleep stage classification using EEG, EOG, and EMG signals from the PhysioNet Sleep-EDF dataset.',
   highlights: [
