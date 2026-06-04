@@ -145,22 +145,6 @@ export const projects = [
   featured: true,
 },
   {
-    id: 'algomart',
-    title: 'AlgoMart',
-    subtitle: 'Small Business E-Commerce',
-    period: 'Mar 2024 — Jun 2024',
-    description:
-      'Dynamic shopping site with secure login, cart, delivery estimation, and owner dashboard for a local vendor.',
-    highlights: [
-      'BST for optimized product search',
-      'PL/SQL triggers for orders, inventory, and customer emails',
-      'Real-time inventory updates via owner dashboard',
-    ],
-    tech: ['Python', 'Flask', 'MySQL', 'JavaScript', 'HTML/CSS'],
-    github: 'https://github.com/Harikaran14/AlgoMart_E-commerce-Website-Development',
-    featured: true,
-  },
-  {
     id: 'complexity',
     title: 'Time Complexity Analyzer',
     subtitle: 'Machine Learning',
@@ -179,6 +163,22 @@ export const projects = [
     description: 'Python-based digital twin for infrastructure capacity planning and resource optimization.',
     tech: ['Python'],
     github: 'https://github.com/Harikaran14/Digital-Twin-for-Capacity-Planning',
+    featured: false,
+  },
+  {
+    id: 'algomart',
+    title: 'AlgoMart',
+    subtitle: 'Small Business E-Commerce',
+    period: 'Mar 2024 — Jun 2024',
+    description:
+      'Dynamic shopping site with secure login, cart, delivery estimation, and owner dashboard for a local vendor.',
+    highlights: [
+      'BST for optimized product search',
+      'PL/SQL triggers for orders, inventory, and customer emails',
+      'Real-time inventory updates via owner dashboard',
+    ],
+    tech: ['Python', 'Flask', 'MySQL', 'JavaScript', 'HTML/CSS'],
+    github: 'https://github.com/Harikaran14/AlgoMart_E-commerce-Website-Development',
     featured: false,
   },
 ];
