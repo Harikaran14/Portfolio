@@ -12,8 +12,8 @@ export const profile = {
   currentlyWorking: 'OctoMail — AI-powered semantic email intelligence',
   currentlyLearning: 'System Design',
   stats: [
-    { label: 'CGPA', value: '8.50', max: '10', color: 'green' },
-    { label: 'CODEFORCES', value: '1450', suffix: 'Specialist', color: 'red' },
+    { label: 'CGPA', value: '8.45', max: '10', color: 'green' },
+    { label: 'CODEFORCES', value: '1454', suffix: 'Specialist', color: 'red' },
     { label: 'JEE MAINS', value: '96', suffix: 'Percentile', color: 'white' },
   ],
   bio: `Fourth-year B.Tech Information Technology student at SSN College of Engineering (CGPA 8.50/10). I specialize in full-stack development with Flask and MERN, competitive programming on Codeforces (max rating 1450, Specialist), and applied ML. Ive worked on projects from CNN–LSTM sleep stage classification to real-time ambulance dispatch systems.`,
@@ -31,7 +31,7 @@ export const education = [
     school: 'SSN College of Engineering',
     location: 'Chennai, India',
     degree: 'B.Tech. Information Technology',
-    detail: 'CGPA: 8.50 / 10',
+    detail: 'CGPA: 8.45 / 10',
     period: 'Aug 2023 — May 2027',
   },
   {
@@ -72,7 +72,7 @@ export const skills = [
 export const projects = [
 {
   id: 'octomail',
-  title: 'OctoMail',
+  title: 'OctoMail SDE Intern @Adamsbridge',
   subtitle: 'AI-Powered Email Productivity Assistant',
   period: 'May 2026 — Present',
   description:
@@ -207,7 +207,7 @@ export const leadership = [
 export const achievements = [
   {
     title: 'Codeforces',
-    value: 'Max Rating 1450',
+    value: 'Max Rating 1454',
     badge: 'Specialist',
     link: 'https://codeforces.com/profile/Harikaran14',
     languages: 'Python, C++',
